@@ -557,13 +557,13 @@ a:active {
     position: relative;
 }
 
-.card-title a, .card-work a {
+.card-title a .card-work a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-title a::after, .card-work a::after{
+.card-titles .card-work a::after{
     position: absolute;
     position: 0;
     content: "";
