@@ -553,8 +553,8 @@ a:active {
 .nav .nav-link ::before {
     content: "";
     position : absolute;
-    vertical-align: 0;
-    align-content: 0;
+    left: 0;
+    bottom: 0;
     background-color: var(--color-white);
     width: 0;
     height: 20%;
